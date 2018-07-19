@@ -26,6 +26,16 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/index.css">
 
+    <style type="text/css">
+        .mobileHide { display: inline; } 
+      
+        /* Smartphone Portrait and Landscape */ 
+        @media only screen 
+          and (min-device-width : 320px) 
+          and (max-device-width : 480px){ 
+           .mobileHide { display: none;}
+        }
+      </style>
 </head>
 
 <body>
@@ -107,7 +117,7 @@
             </div>
 
             <!-- Video -->
-            <video controls="" autoplay="" loop="" muted>
+            <video controls="" autoplay="" loop="" muted class="mobileHide">
                 <source src="videos/video.mp4" type="video/mp4"> Your browser does not support the video tag.
             </video>
         </section>
@@ -520,14 +530,14 @@
         </div>
     </section>
 
-    <!-- <section id="googlemap " style="height:500px; ">
+    <section id="googlemap " style="height:500px; ">
 
             <iframe width="100% " height="100% " frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0
                                 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.3533404468317!2d103.63281244919699!3d1.4264202593006918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0b2faaaaaaa1%3A0x5ba81ae14aa6c39f!2sIskandarSpace!5e0!3m2!1sen!2smy!4v1531493261383 "></iframe>
             <small>
                 <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.3533404468317!2d103.63281244919699!3d1.4264202593006918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0b2faaaaaaa1%3A0x5ba81ae14aa6c39f!2sIskandarSpace!5e0!3m2!1sen!2smy!4v1531493261383 "></a>
             </small>
-        </section> -->
+        </section>
 
     <!-- FOOTER -->
     <footer>
@@ -587,7 +597,7 @@
     <script src="js/modernizr.custom.js "></script>
     <script src="js/smoothscroll.js "></script>
     <script src="js/custom.js "></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap "></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap "></script>
 
 </body>
 
