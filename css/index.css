@@ -713,6 +713,10 @@ footer .copyright-text {
   #myCarousel{
     width:992px;
   }
+
+  #home video{
+    width:992px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -744,6 +748,10 @@ footer .copyright-text {
   #myCarousel{
     width:980px;
   }
+
+  #home video{
+    width:980px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -752,6 +760,10 @@ footer .copyright-text {
   }
 
   #myCarousel{
+    width:770px;
+  }
+
+  #home video{
     width:770px;
   }
 }
@@ -780,6 +792,10 @@ footer .copyright-text {
   #myCarousel{
     width:767px;
   }
+
+  #home video{
+    width:767px;
+  }
 }
 
 
@@ -802,6 +818,10 @@ footer .copyright-text {
   }
 
   #myCarousel{
+    width:580px;
+  }
+
+  #home video{
     width:580px;
   }
 }
