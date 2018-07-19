@@ -711,11 +711,12 @@ footer .copyright-text {
   }
 
   #myCarousel{
-    width:992px;
+    width:496px;
   }
 
   #home video{
     width:992px;
+    height:fit-content;
   }
 }
 
@@ -746,11 +747,12 @@ footer .copyright-text {
   }
 
   #myCarousel{
-    width:980px;
+    width:490px;
   }
 
   #home video{
     width:980px;
+    height:fit-content;
   }
 }
 
@@ -760,11 +762,12 @@ footer .copyright-text {
   }
 
   #myCarousel{
-    width:770px;
+    width:385px;
   }
 
   #home video{
-    width:770px;
+    width:px;
+    height:fit-content;
   }
 }
 
@@ -790,11 +793,12 @@ footer .copyright-text {
   }
 
   #myCarousel{
-    width:767px;
+    width:384px;
   }
 
   #home video{
     width:767px;
+    height:fit-content;
   }
 }
 
@@ -818,10 +822,11 @@ footer .copyright-text {
   }
 
   #myCarousel{
-    width:580px;
+    width:290px;
   }
 
   #home video{
     width:580px;
+    height:fit-content;
   }
 }
