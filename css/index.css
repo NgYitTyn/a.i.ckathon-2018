@@ -715,8 +715,7 @@ footer .copyright-text {
   }
 
   #home video{
-    width:992px;
-    height:fit-content;
+    background-color: #262b5f;
   }
 }
 
@@ -751,8 +750,7 @@ footer .copyright-text {
   }
 
   #home video{
-    width:980px;
-    height:fit-content;
+    background-color: #262b5f;
   }
 }
 
@@ -766,8 +764,7 @@ footer .copyright-text {
   }
 
   #home video{
-    width:px;
-    height:fit-content;
+    background-color: #262b5f;
   }
 }
 
@@ -797,8 +794,7 @@ footer .copyright-text {
   }
 
   #home video{
-    width:767px;
-    height:fit-content;
+    background-color: #262b5f;
   }
 }
 
@@ -826,7 +822,6 @@ footer .copyright-text {
   }
 
   #home video{
-    width:580px;
-    height:fit-content;
+    background-color: #262b5f;
   }
 }
