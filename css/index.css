@@ -158,7 +158,8 @@ a {
   color: #010213;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  font-weight: 500;
+  font-weight: bold;
+  color:rgb(40, 77, 107);
 }
 
 a:hover, a:active, a:focus {
@@ -463,6 +464,10 @@ a:hover, a:active, a:focus {
   text-align: left;
 }
 
+.faq-info h3{
+  font-weight: bold;
+}
+
 .faq-info p{
   font-weight:300;
 }
@@ -490,7 +495,7 @@ a:hover, a:active, a:focus {
   padding-top:150px;
   padding-bottom: 150px;
   background-color:#2e376b;
-  color:white;
+  color:rgb(155, 203, 243);
 } 
 
 #team .item {
@@ -629,10 +634,11 @@ footer {
   background-color: #262b5f;
 
 }
+
 footer h2{
-  color:lightblue;
+  color:rgb(155, 203, 243);
   padding-top: 12px;
-  font-weight: bold;
+  font-weight: 400;
   
 }
 
@@ -714,9 +720,7 @@ footer .copyright-text {
     width:496px;
   }
 
-  #home video{
-    background-color: #262b5f;
-  }
+  
 }
 
 @media (max-width: 980px) {
@@ -749,9 +753,7 @@ footer .copyright-text {
     width:490px;
   }
 
-  #home video{
-    background-color: #262b5f;
-  }
+  
 }
 
 @media (max-width: 770px) {
@@ -763,9 +765,7 @@ footer .copyright-text {
     width:385px;
   }
 
-  #home video{
-    background-color: #262b5f;
-  }
+ 
 }
 
 @media (max-width: 767px) {
@@ -793,9 +793,7 @@ footer .copyright-text {
     width:384px;
   }
 
-  #home video{
-    background-color: #262b5f;
-  }
+  
 }
 
 
@@ -821,7 +819,5 @@ footer .copyright-text {
     width:290px;
   }
 
-  #home video{
-    background-color: #262b5f;
-  }
+  
 }
