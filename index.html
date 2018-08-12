@@ -110,11 +110,61 @@
                                 <span style="color:rgb(92, 147, 192);">Southeast Asia</span> Hackathon</h2>
                             <br>
                             <p>Nov 16th-18th,2018 | Iskandar Space</p>
-                            <ul class="section-btn">
-                                <a href="#about" class="smoothScroll">
-                                    <span data-hover="Register opens soon!">Register opens soon! </span>
-                                </a>
-                            </ul>
+
+                            <!-- Button to open the modal -->
+                            <button onclick="document.getElementById('id01').style.display='block'">Pre-register</button>
+
+                            <!-- The Modal (contains the Sign Up form) -->
+                            <div id="id01" class="modal">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+                                <form class="modal-content" name="Pre-register" method="POST" netlify>
+                                    <div class="container">
+                                        <h3 style="color:black">Pre-register</h3>
+                                        <p style="color:black">Please fill in this form to pre-register for this hackathon</p>
+                                        <hr>
+                                        <label for="name">
+                                            <b>Name</b>
+                                        </label>
+                                        <input type="text" placeholder="Enter Name" name="name" required>
+
+                                        <br>
+                                        <label for="country">
+                                            <b>Country</b>
+                                        </label>
+                                        <input type="text" placeholder="Enter Country" name="country" required>
+
+                                        <br>
+                                        <label for="university">
+                                            <b>University</b>
+                                        </label>
+                                        <input type="text" placeholder="Enter University" name="university" required>
+
+                                        <br>
+                                        <label for="email">
+                                            <b>Email</b>
+                                        </label>
+                                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                                        <br>
+                                        <label for="psw">
+                                            <b>Password</b>
+                                        </label>
+                                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                        <br>
+                                        <label for="psw-repeat">
+                                            <b>Repeat Password</b>
+                                        </label>
+                                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                                        <div class="clearfix">
+                                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                            <br>
+                                            <button type="submit" class="preregbtn">Pre-register</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>s
                         </div>
                     </div>
 
@@ -293,8 +343,9 @@
                             <h3>Who can attend A.I.CKATHON SEA?</h3>
                             <p>To attend as a hacker, you need to be a
                                 <span style="font-weight: bold;">university student in Southeast Asia region.</span> Strictly for students only. We will need
-                                to check your student ID for verification. Others who wish to be <span style="font-weight: bold;">mentors are welcomed, but
-                                they must email us (a.i.ckathon@gmail.com)for confirmation</span> before the event.</p>
+                                to check your student ID for verification. Others who wish to be
+                                <span style="font-weight: bold;">mentors are welcomed, but they must email us (a.i.ckathon@gmail.com)for confirmation</span>
+                                before the event.</p>
 
                         </div>
                     </div>
@@ -306,8 +357,8 @@
                             <h3>Who owns my IP rights , code , idea?</h3>
                             <p>
                                 <span style="font-weight: bold;">You own all the rights to your intellectual property .</span>We won't claim any right over
-                                anything made during this event.However, as part of your participation, you agree to <span style="font-weight: bold;">grant
-                                Organizer the right to display your project</span> online and in any media.</p>
+                                anything made during this event.However, as part of your participation, you agree to
+                                <span style="font-weight: bold;">grant Organizer the right to display your project</span> online and in any media.</p>
                             <br>
                             <br>
                         </div>
@@ -368,7 +419,9 @@
                 <div class="col-md-offset-2 col-md-8 col-sm-12">
                     <!-- SECTION TITLE -->
                     <div class="section-title">
-                        <h1>Meet Our <span style="color:black;">People</span></h1>
+                        <h1>Meet Our
+                            <span style="color:black;">People</span>
+                        </h1>
                     </div>
                 </div>
 
@@ -620,6 +673,18 @@
     <script src="js/modernizr.custom.js "></script>
     <script src="js/smoothscroll.js "></script>
     <script src="js/custom.js "></script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap "></script> -->
 
 </body>
