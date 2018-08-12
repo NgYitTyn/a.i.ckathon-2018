@@ -145,18 +145,6 @@
                                         </label>
                                         <input type="text" placeholder="Enter Email" name="email" required>
 
-                                        <br>
-                                        <label for="psw">
-                                            <b>Password</b>
-                                        </label>
-                                        <input type="password" placeholder="Enter Password" name="psw" required>
-
-                                        <br>
-                                        <label for="psw-repeat">
-                                            <b>Repeat Password</b>
-                                        </label>
-                                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
                                         <div class="clearfix">
                                             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                                             <br>
@@ -164,7 +152,7 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>s
+                            </div>
                         </div>
                     </div>
 
@@ -623,14 +611,54 @@
                     <h2>A.I.CKATHON 2018</h2>
                     <h3>November 16-18,2018 | Iskandar Space </h3>
                 </div>
-                <div class="col-lg-6 ">
-                    <ul class="section-btn " style="padding-left: 200px ">
-                        <a href="#about " class="smoothScroll ">
-                            <span data-hover="Register opens soon! ">Register opens soon! </span>
-                        </a>
-                    </ul>
+                <div class="col-lg  -6 ">
                     <br>
                     <br>
+                    <!-- Button to open the modal -->
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:40%;">Pre-register</button>
+
+                    <!-- The Modal (contains the Sign Up form) -->
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+                        <form class="modal-content" name="Pre-register" method="POST" netlify>
+                            <div class="container">
+                                <h3 style="color:black">Pre-register</h3>
+                                <p style="color:black">Please fill in this form to pre-register for this hackathon</p>
+                                <hr>
+                                <label for="name">
+                                    <b>Name</b>
+                                </label>
+                                <input type="text" placeholder="Enter Name" name="name" required>
+
+                                <br>
+                                <label for="country">
+                                    <b>Country</b>
+                                </label>
+                                <input type="text" placeholder="Enter Country" name="country" required>
+
+                                <br>
+                                <label for="university">
+                                    <b>University</b>
+                                </label>
+                                <input type="text" placeholder="Enter University" name="university" required>
+
+                                <br>
+                                <label for="email">
+                                    <b>Email</b>
+                                </label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                                <div class="clearfix">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                    <br>
+                                    <button type="submit" class="preregbtn">Pre-register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <br>
+
                 </div>
                 <div class="col-lg-6 ">
                     <div class="copyright-text ">
