@@ -63,7 +63,14 @@ p {
   letter-spacing: 0.5px;
 }
 
+/*---------------------------------------
+  Table            
+-----------------------------------------*/ 
 
+th,
+td {
+  font-size: 19px
+}
 
 
 /*---------------------------------------
@@ -370,6 +377,7 @@ a:hover, a:active, a:focus {
     background: 0 0; 
   }
   .custom-navbar.top-nav-collapse {
+    background: #037ef3;
     background: #262b5f;
     padding: 15px 0;
   }
