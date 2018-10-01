@@ -458,8 +458,9 @@ footer {
 
 #home h1 {
   color: #ffffff;
-  font-size: 6em;
-  line-height: 1.2em;
+  font-size: 8em;
+  line-height: 1.0em;
+  font-family: "Bebas Neue", Arial; 
 }
 
 #home h2 {
